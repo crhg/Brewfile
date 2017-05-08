@@ -32,6 +32,7 @@ brew gdbm
 brew gettext
 brew ghc
 brew gmp
+brew gnu-sed
 brew gnupg
 brew gnutls
 brew go
