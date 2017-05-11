@@ -37,6 +37,7 @@ brew gnupg
 brew gnutls
 brew go
 brew gpg-agent
+brew groovy
 brew haskell-stack
 brew htop-osx
 brew icu4c
@@ -76,6 +77,7 @@ brew ruby
 brew sbcl
 brew scons
 brew sqlite
+brew swagger-codegen
 brew unixodbc
 brew vim --with-lua
 brew watch
