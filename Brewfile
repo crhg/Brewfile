@@ -84,7 +84,6 @@ brew watch
 brew wget
 brew xz
 brew zlib
-brew zplug
 
 tap homebrew/dupes
 
