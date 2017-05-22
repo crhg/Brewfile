@@ -93,6 +93,8 @@ brew php-code-sniffer
 brew php71 --with-httpd24
 brew phpmd
 
+tap homebrew/services
+
 tap rcmdnk/file
 brew brew-file
 
