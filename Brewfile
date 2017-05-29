@@ -43,6 +43,7 @@ brew htop-osx
 brew icu4c
 brew jpeg
 brew libassuan
+brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
@@ -72,12 +73,14 @@ brew pkg-config
 brew pth
 brew python
 brew readline
+brew reattach-to-user-namespace
 brew rlwrap
 brew ruby
 brew sbcl
 brew scons
 brew sqlite
 brew swagger-codegen
+brew tmux
 brew unixodbc
 brew vim --with-lua
 brew watch
@@ -91,7 +94,9 @@ tap homebrew/php
 brew composer
 brew php-code-sniffer
 brew php71 --with-httpd24
+brew php71-xdebug
 brew phpmd
+brew phpunit
 
 tap homebrew/services
 
@@ -116,7 +121,7 @@ appstore 1055511498 Day One (2.1.9)
 appstore 586862299 Duplicate Cleaner For iPhoto (1.13)
 appstore 406056744 Evernote (6.11)
 appstore 467939042 Growl (2.1.3)
-appstore 408981434 iMovie (10.1.5)
+appstore 408981434 iMovie (10.1.6)
 appstore 408981381 iPhoto (9.6.1)
 appstore 478844335 Janetter (4.4.0)
 appstore 409183694 Keynote (7.1.1)
