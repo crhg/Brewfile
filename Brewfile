@@ -65,6 +65,7 @@ brew nkf
 brew node
 brew npth
 brew openssl
+brew openssl@1.1
 brew p11-kit
 brew pcre
 brew perl
@@ -87,6 +88,7 @@ brew watch
 brew wget
 brew xz
 brew zlib
+brew zsh
 
 tap homebrew/dupes
 
