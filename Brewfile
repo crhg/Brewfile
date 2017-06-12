@@ -100,7 +100,11 @@ brew slime
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php71
+brew php70
+brew php71 --with-httpd24
+brew php71-xdebug
+brew phpmd
+brew phpunit
 
 tap homebrew/services
 
@@ -110,5 +114,7 @@ brew brew-file
 tap takuyao/misc
 
 tap tholu/tap
+brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
+brew rcm
