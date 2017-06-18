@@ -85,7 +85,7 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-lua --with-override-system-vi
+brew vim --with-override-system-vi --with-lua
 brew watch
 brew wget
 brew xz
