@@ -17,6 +17,8 @@ brew adns
 brew ant
 brew apr
 brew apr-util
+brew binutils
+brew carthage
 brew chezscheme
 brew clisp
 brew clozure-cl
@@ -26,6 +28,7 @@ brew ctags
 brew dirmngr
 brew docker
 brew emacs
+brew findutils
 brew freetype
 brew gauche
 brew gawk
@@ -61,6 +64,8 @@ brew lua
 brew mas
 brew mpfr
 brew mysql
+brew nethack
+brew nethack4
 brew nettle
 brew nkf
 brew node
@@ -77,6 +82,8 @@ brew python
 brew readline
 brew reattach-to-user-namespace
 brew rlwrap
+brew rogue
+brew roswell
 brew ruby
 brew sbcl
 brew scons
@@ -97,10 +104,11 @@ tap homebrew/dupes
 tap homebrew/emacs
 brew slime
 
+tap homebrew/games
+
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php70
 brew php71 --with-httpd24
 brew php71-xdebug
 brew phpmd
