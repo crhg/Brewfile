@@ -111,6 +111,8 @@ brew composer
 brew php-code-sniffer
 brew php71 --with-httpd24
 brew php71-xdebug
+brew phpmd
+brew phpunit
 
 tap homebrew/services
 
