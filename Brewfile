@@ -18,6 +18,8 @@ brew ant
 brew apr
 brew apr-util
 brew binutils
+brew boost
+brew c-ares
 brew carthage
 brew chezscheme
 brew clisp
@@ -45,8 +47,11 @@ brew groovy
 brew haskell-stack
 brew htop-osx
 brew icu4c
+brew jansson
+brew jemalloc
 brew jpeg
 brew libassuan
+brew libev
 brew libevent
 brew libffi
 brew libgcrypt
@@ -67,6 +72,7 @@ brew mysql
 brew nethack
 brew nethack4
 brew nettle
+brew nghttp2
 brew nkf
 brew node
 brew npth
@@ -87,6 +93,7 @@ brew roswell
 brew ruby
 brew sbcl
 brew scons
+brew spdylay
 brew sqlite
 brew swagger-codegen
 brew texinfo
