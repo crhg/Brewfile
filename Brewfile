@@ -68,6 +68,7 @@ brew libyaml
 brew lua
 brew mas
 brew mpfr
+brew mycli
 brew mysql
 brew nethack
 brew nethack4
