@@ -65,6 +65,7 @@ brew libusb-compat
 brew libxml2
 brew libyaml
 brew lua
+brew luajit
 brew mas
 brew mpfr
 brew mycli
@@ -85,6 +86,7 @@ brew pinentry
 brew pkg-config
 brew pth
 brew python
+brew python3
 brew readline
 brew reattach-to-user-namespace
 brew rlwrap
@@ -99,7 +101,7 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-lua
+brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit --HEAD
 brew watch
 brew wget
 brew xz
