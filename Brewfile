@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap caskroom/cask
+cask docker
 cask racket
 cask xquartz
 
@@ -118,7 +119,7 @@ tap homebrew/games
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php71
+brew php71 --with-httpd24
 brew php71-xdebug
 brew phpmd
 brew phpunit
