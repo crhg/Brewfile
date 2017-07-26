@@ -34,6 +34,7 @@ brew findutils
 brew freetype
 brew gauche
 brew gawk
+brew gcc
 brew gdbm
 brew gettext
 brew ghc
@@ -47,6 +48,7 @@ brew groovy
 brew haskell-stack
 brew htop-osx
 brew icu4c
+brew isl
 brew jansson
 brew jemalloc
 brew jpeg
@@ -57,6 +59,7 @@ brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libksba
+brew libmpc
 brew libpng
 brew libsigsegv
 brew libtasn1
@@ -86,6 +89,7 @@ brew perl
 brew pinentry
 brew pkg-config
 brew pth
+brew pxz
 brew python
 brew python3
 brew readline
@@ -102,7 +106,7 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-luajit --HEAD
+brew vim --with-override-system-vi --with-python3 --with-luajit
 brew watch
 brew wget
 brew xz
