@@ -18,6 +18,7 @@ brew findutils
 brew mysql
 brew go
 brew gdbm
+brew cowsay
 brew scons
 brew htop-osx
 brew gpg-agent
@@ -32,6 +33,7 @@ brew rogue
 brew gnutls
 brew python3
 brew npth
+brew fortune
 brew luajit
 brew p11-kit
 brew libyaml
@@ -121,9 +123,9 @@ brew slime
 tap homebrew/games
 
 tap homebrew/php
-brew php71-xdebug
 brew phpmd
 brew phpunit
+brew php71-xdebug
 brew php71 --with-httpd24
 brew php-code-sniffer
 brew composer
