@@ -94,6 +94,7 @@ brew libassuan
 brew abcl
 brew libxml2
 brew ant
+brew socat
 brew mycli
 brew texinfo
 brew gcc
