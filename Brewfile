@@ -44,6 +44,7 @@ brew jemalloc
 brew sbcl
 brew libunistring
 brew carthage
+brew reattach-to-user-namespace
 brew libgpg-error
 brew lua
 brew clisp
@@ -85,7 +86,6 @@ brew groovy
 brew gauche
 brew zlib
 brew libtasn1
-brew reattach-to-user-namespace
 brew gnupg
 brew gnu-sed
 brew libsigsegv
@@ -130,6 +130,7 @@ brew php71-xdebug
 brew php71 --with-httpd24
 brew php-code-sniffer
 brew composer
+brew php71-intl
 
 tap homebrew/services
 
