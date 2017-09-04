@@ -77,6 +77,7 @@ brew perl
 brew nghttp2
 brew emacs
 brew ctags
+brew cabal-install
 brew nkf
 brew libmpc
 brew libusb
