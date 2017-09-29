@@ -40,6 +40,7 @@ brew libyaml
 brew clozure-cl
 brew cscope
 brew pkg-config
+brew libsigsegv
 brew jemalloc
 brew sbcl
 brew libunistring
@@ -68,7 +69,7 @@ brew adns
 brew roswell
 brew apr
 brew tmux
-brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
+brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit --HEAD
 brew xz
 brew readline
 brew pcre
@@ -89,7 +90,6 @@ brew zlib
 brew libtasn1
 brew gnupg
 brew gnu-sed
-brew libsigsegv
 brew sqlite
 brew libassuan
 brew abcl
@@ -105,6 +105,7 @@ brew node
 brew mas
 brew unixodbc
 brew pinentry
+brew libtool
 brew openssl@1.1
 brew libffi
 brew haskell-stack
@@ -126,12 +127,12 @@ tap homebrew/games
 
 tap homebrew/php
 brew phpmd
-brew phpunit
 brew php71-xdebug
 brew php71 --with-httpd24
 brew php-code-sniffer
 brew composer
 brew php71-intl
+brew phpunit
 
 tap homebrew/services
 
