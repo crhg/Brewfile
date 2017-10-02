@@ -9,7 +9,6 @@ cask xquartz
 tap crhg/misc
 
 tap homebrew/apache
-brew httpd24
 
 tap homebrew/core
 brew pth
@@ -73,6 +72,7 @@ brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit --HEA
 brew xz
 brew readline
 brew pcre
+brew httpd
 brew libev
 brew perl
 brew nghttp2
