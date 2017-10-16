@@ -19,7 +19,6 @@ brew go
 brew gdbm
 brew cowsay
 brew scons
-brew htop-osx
 brew gpg-agent
 brew gmp
 brew freetype
@@ -38,7 +37,7 @@ brew p11-kit
 brew libyaml
 brew clozure-cl
 brew cscope
-brew pkg-config
+brew htop
 brew libsigsegv
 brew jemalloc
 brew sbcl
@@ -62,6 +61,7 @@ brew openssl
 brew icu4c
 brew jansson
 brew isl
+brew pkg-config
 brew binutils
 brew pxz
 brew adns
