@@ -102,7 +102,7 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit --HEAD
+brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
 brew watch
 brew wget
 brew xz
