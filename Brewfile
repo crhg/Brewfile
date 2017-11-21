@@ -1,15 +1,6 @@
 
 # tap repositories and their packages
 
-tap caskroom/cask
-cask docker
-cask racket
-cask xquartz
-
-tap crhg/misc
-
-tap homebrew/apache
-
 tap homebrew/core
 brew abcl
 brew adns
@@ -112,12 +103,14 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua
+brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
 brew watch
 brew wget
 brew xz
 brew zlib
 brew zsh
+
+tap homebrew/apache
 
 tap homebrew/dupes
 
@@ -129,7 +122,7 @@ tap homebrew/games
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php71
+brew php71 --with-httpd
 brew php71-ast
 brew php71-intl
 brew php71-xdebug
@@ -139,6 +132,11 @@ brew phpunit
 tap homebrew/services
 
 tap caskroom/cask
+cask docker
+cask racket
+cask xquartz
+
+tap crhg/misc
 cask docker
 cask racket
 cask xquartz
