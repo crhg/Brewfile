@@ -49,6 +49,8 @@ brew go
 brew gpg-agent
 brew groovy
 brew haskell-stack
+brew htop
+brew httpd
 brew icu4c
 brew isl
 brew jansson
@@ -65,6 +67,7 @@ brew libmpc
 brew libpng
 brew libsigsegv
 brew libtasn1
+brew libtool
 brew libunistring
 brew libusb
 brew libusb-compat
@@ -109,7 +112,7 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit --HEAD
+brew vim --with-override-system-vi --with-python3 --with-lua
 brew watch
 brew wget
 brew xz
@@ -126,13 +129,21 @@ tap homebrew/games
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php71 --with-httpd24
+brew php71
+brew php71-ast
 brew php71-intl
 brew php71-xdebug
 brew phpmd
 brew phpunit
 
 tap homebrew/services
+
+tap caskroom/cask
+cask docker
+cask racket
+cask xquartz
+
+tap crhg/misc
 
 tap rcmdnk/file
 brew brew-file
