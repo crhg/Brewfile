@@ -9,6 +9,7 @@ brew apr
 brew apr-util
 brew autoconf
 brew binutils
+brew bison
 brew boost
 brew c-ares
 brew cabal-install
@@ -24,11 +25,14 @@ brew dirmngr
 brew docker
 brew emacs
 brew findutils
+brew fontconfig
 brew fortune
 brew freetype
 brew gauche
 brew gawk
 brew gcc
+brew gd
+brew gdb
 brew gdbm
 brew gettext
 brew ghc
@@ -38,6 +42,7 @@ brew gnupg
 brew gnutls
 brew go
 brew gpg-agent
+brew graphviz
 brew groovy
 brew haskell-stack
 brew htop
@@ -58,6 +63,7 @@ brew libmpc
 brew libpng
 brew libsigsegv
 brew libtasn1
+brew libtiff
 brew libtool
 brew libunistring
 brew libusb
@@ -88,6 +94,9 @@ brew pth
 brew pxz
 brew python
 brew python3
+brew qcachegrind
+brew qt
+brew re2c
 brew readline
 brew reattach-to-user-namespace
 brew rlwrap
@@ -103,8 +112,9 @@ brew swagger-codegen
 brew texinfo
 brew tmux
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
+brew vim --with-override-system-vi --with-python3 --with-lua
 brew watch
+brew webp
 brew wget
 brew xz
 brew zlib
@@ -137,11 +147,6 @@ cask racket
 cask xquartz
 
 tap crhg/misc
-cask docker
-cask racket
-cask xquartz
-
-tap crhg/misc
 
 tap rcmdnk/file
 brew brew-file
@@ -153,7 +158,3 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
-
-# Other Homebrew packages
-brew htop-osx
-brew httpd24
