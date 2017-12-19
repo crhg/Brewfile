@@ -8,6 +8,7 @@ brew ant
 brew apr
 brew apr-util
 brew autoconf
+brew bdw-gc
 brew binutils
 brew bison
 brew boost
@@ -44,6 +45,7 @@ brew go
 brew gpg-agent
 brew graphviz
 brew groovy
+brew guile
 brew haskell-stack
 brew htop
 brew httpd
@@ -58,6 +60,7 @@ brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
+brew libidn2
 brew libksba
 brew libmpc
 brew libpng
