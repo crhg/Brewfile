@@ -20,6 +20,7 @@ brew clisp
 brew clozure-cl
 brew coreutils
 brew cowsay
+brew cpanminus
 brew cscope
 brew ctags
 brew dirmngr
@@ -47,7 +48,6 @@ brew graphviz
 brew groovy
 brew guile
 brew haskell-stack
-brew htop
 brew httpd
 brew icu4c
 brew isl
@@ -91,8 +91,10 @@ brew openssl@1.1
 brew p11-kit
 brew pcre
 brew perl
+brew perl-build
 brew pinentry
 brew pkg-config
+brew plenv
 brew pth
 brew pxz
 brew python
