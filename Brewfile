@@ -50,6 +50,7 @@ brew guile
 brew haskell-stack
 brew httpd
 brew icu4c
+brew inetutils
 brew isl
 brew jansson
 brew jemalloc
@@ -60,6 +61,7 @@ brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
+brew libidn
 brew libidn2
 brew libksba
 brew libmpc
