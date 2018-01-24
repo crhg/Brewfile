@@ -26,6 +26,7 @@ brew ctags
 brew dirmngr
 brew docker
 brew emacs
+brew fdk-aac
 brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
 brew findutils
 brew fontconfig
@@ -67,6 +68,7 @@ brew libidn
 brew libidn2
 brew libksba
 brew libmpc
+brew libogg
 brew libpng
 brew libsigsegv
 brew libtasn1
@@ -75,14 +77,18 @@ brew libtool
 brew libunistring
 brew libusb
 brew libusb-compat
+brew libvorbis
+brew libvpx
 brew libxml2
 brew libyaml
+brew little-cms2
 brew lua
 brew luajit
 brew mas
 brew mpfr
 brew mycli
 brew mysql
+brew nasm
 brew nethack
 brew nethack4
 brew nettle
@@ -90,6 +96,8 @@ brew nghttp2
 brew nkf
 brew node
 brew npth
+brew opencore-amr
+brew openjpeg
 brew openssl
 brew openssl@1.1
 brew p11-kit
@@ -120,7 +128,10 @@ brew socat
 brew spdylay
 brew sqlite
 brew swagger-codegen
+brew texi2html
 brew texinfo
+brew the_silver_searcher
+brew theora
 brew tmux
 brew tre
 brew unixodbc
@@ -172,6 +183,3 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
-
-# Other Homebrew packages
-brew ag
