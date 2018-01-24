@@ -26,6 +26,7 @@ brew ctags
 brew dirmngr
 brew docker
 brew emacs
+brew ffmpeg --with-fdk-aac --with-libvo-aacenc --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 brew findutils
 brew fontconfig
 brew fortune
@@ -55,6 +56,7 @@ brew isl
 brew jansson
 brew jemalloc
 brew jpeg
+brew lame
 brew libassuan
 brew libev
 brew libevent
@@ -99,6 +101,8 @@ brew pkg-config
 brew plenv
 brew pth
 brew pxz
+brew pyenv
+brew pyenv-virtualenv
 brew python
 brew python3
 brew qcachegrind
@@ -118,11 +122,14 @@ brew sqlite
 brew swagger-codegen
 brew texinfo
 brew tmux
+brew tre
 brew unixodbc
 brew vim --with-override-system-vi --with-python3 --with-lua
 brew watch
 brew webp
 brew wget
+brew x264
+brew xvid
 brew xz
 brew zlib
 brew zsh
@@ -165,3 +172,6 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
+
+# Other Homebrew packages
+brew ag
