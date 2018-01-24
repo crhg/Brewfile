@@ -26,7 +26,7 @@ brew ctags
 brew dirmngr
 brew docker
 brew emacs
-brew ffmpeg --with-fdk-aac --with-libvo-aacenc --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
 brew findutils
 brew fontconfig
 brew fortune
