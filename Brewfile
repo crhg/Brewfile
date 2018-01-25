@@ -43,6 +43,7 @@ brew ghc
 brew gmp
 brew gnu-sed
 brew gnupg
+brew gnuplot
 brew gnutls
 brew go
 brew gpg-agent
