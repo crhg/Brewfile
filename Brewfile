@@ -73,13 +73,16 @@ brew libogg
 brew libpng
 brew libsigsegv
 brew libtasn1
+brew libtermkey
 brew libtiff
 brew libtool
 brew libunistring
 brew libusb
 brew libusb-compat
+brew libuv
 brew libvorbis
 brew libvpx
+brew libvterm
 brew libxml2
 brew libyaml
 brew little-cms2
@@ -87,9 +90,11 @@ brew lua
 brew luajit
 brew mas
 brew mpfr
+brew msgpack
 brew mycli
 brew mysql
 brew nasm
+brew neovim
 brew nethack
 brew nethack4
 brew nettle
@@ -135,6 +140,7 @@ brew the_silver_searcher
 brew theora
 brew tmux
 brew tre
+brew unibilium
 brew unixodbc
 brew vim --with-override-system-vi --with-python3 --with-lua
 brew watch
