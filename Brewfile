@@ -17,7 +17,6 @@ brew cabal-install
 brew carthage
 brew chezscheme
 brew clisp
-brew clozure-cl
 brew coreutils
 brew cowsay
 brew cpanminus
@@ -190,3 +189,6 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
+
+# Other Homebrew packages
+brew clozure-cl
