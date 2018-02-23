@@ -38,7 +38,9 @@ brew gd
 brew gdb
 brew gdbm
 brew gettext
+brew gflags
 brew ghc
+brew glog
 brew gmp
 brew gnu-sed
 brew gnupg
@@ -52,6 +54,7 @@ brew guile
 brew haskell-stack
 brew httpd
 brew icu4c
+brew imagemagick@6
 brew inetutils
 brew isl
 brew jansson
@@ -67,10 +70,12 @@ brew libgpg-error
 brew libidn
 brew libidn2
 brew libksba
+brew libmemcached
 brew libmpc
 brew libogg
 brew libpng
 brew libsigsegv
+brew libsodium
 brew libtasn1
 brew libtermkey
 brew libtiff
@@ -84,10 +89,15 @@ brew libvpx
 brew libvterm
 brew libxml2
 brew libyaml
+brew libzip
 brew little-cms2
 brew lua
 brew luajit
+brew lz4
 brew mas
+brew mcrypt
+brew memcached
+brew mhash
 brew mpfr
 brew msgpack
 brew mycli
@@ -101,6 +111,7 @@ brew nghttp2
 brew nkf
 brew node
 brew npth
+brew oniguruma
 brew opencore-amr
 brew openjpeg
 brew openssl
@@ -133,6 +144,7 @@ brew socat
 brew spdylay
 brew sqlite
 brew swagger-codegen
+brew tbb
 brew texi2html
 brew texinfo
 brew the_silver_searcher
@@ -178,6 +190,9 @@ cask racket
 cask xquartz
 
 tap crhg/misc
+
+tap hhvm/hhvm
+brew hhvm
 
 tap rcmdnk/file
 brew brew-file
