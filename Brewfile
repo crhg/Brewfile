@@ -153,7 +153,7 @@ brew tmux
 brew tre
 brew unibilium
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua
+brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
 brew watch
 brew webp
 brew wget
@@ -185,8 +185,8 @@ brew phpunit
 tap homebrew/services
 
 tap caskroom/cask
-cask docker
 cask racket
+cask docker
 cask xquartz
 
 tap crhg/misc
