@@ -185,8 +185,8 @@ brew phpunit
 tap homebrew/services
 
 tap caskroom/cask
-cask racket
 cask docker
+cask racket
 cask xquartz
 
 tap crhg/misc
