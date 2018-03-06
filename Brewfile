@@ -128,7 +128,6 @@ brew pxz
 brew pyenv
 brew pyenv-virtualenv
 brew python
-brew python3
 brew qcachegrind
 brew qt
 brew re2c
@@ -153,7 +152,7 @@ brew tmux
 brew tre
 brew unibilium
 brew unixodbc
-brew vim --with-override-system-vi --with-python3 --with-lua --with-luajit
+brew vim --with-override-system-vi --with-lua --with-luajit
 brew watch
 brew webp
 brew wget
