@@ -12,6 +12,7 @@ brew bdw-gc
 brew binutils
 brew bison
 brew boost
+brew brotli
 brew c-ares
 brew cabal-install
 brew carthage
