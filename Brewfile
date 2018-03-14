@@ -175,7 +175,7 @@ tap homebrew/games
 tap homebrew/php
 brew composer
 brew php-code-sniffer
-brew php71 --with-httpd
+brew php71 --with-httpd --with-pear
 brew php71-ast
 brew php71-intl
 brew php71-xdebug
