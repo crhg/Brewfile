@@ -124,6 +124,7 @@ brew perl-build
 brew pinentry
 brew pkg-config
 brew plenv
+brew postgresql
 brew pth
 brew pxz
 brew pyenv
