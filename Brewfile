@@ -18,6 +18,7 @@ brew cabal-install
 brew carthage
 brew chezscheme
 brew clisp
+brew composer
 brew coreutils
 brew cowsay
 brew cpanminus
@@ -174,7 +175,6 @@ brew slime
 tap homebrew/games
 
 tap homebrew/php
-brew composer
 brew php-code-sniffer
 brew php71 --with-httpd --with-pear
 brew php71-ast
