@@ -7,6 +7,8 @@ brew adns
 brew ant
 brew apr
 brew apr-util
+brew argon2
+brew aspell
 brew autoconf
 brew bdw-gc
 brew binutils
@@ -32,6 +34,7 @@ brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis 
 brew findutils
 brew fontconfig
 brew fortune
+brew freetds
 brew freetype
 brew gauche
 brew gawk
@@ -42,6 +45,7 @@ brew gdbm
 brew gettext
 brew gflags
 brew ghc
+brew glib
 brew glog
 brew gmp
 brew gnu-sed
@@ -76,6 +80,7 @@ brew libmemcached
 brew libmpc
 brew libogg
 brew libpng
+brew libpq
 brew libsigsegv
 brew libsodium
 brew libtasn1
@@ -122,6 +127,9 @@ brew p11-kit
 brew pcre
 brew perl
 brew perl-build
+brew php
+brew php-code-sniffer
+brew phpunit
 brew pinentry
 brew pkg-config
 brew plenv
@@ -175,13 +183,7 @@ brew slime
 tap homebrew/games
 
 tap homebrew/php
-brew php-code-sniffer
-brew php71 --with-httpd --with-pear
-brew php71-ast
-brew php71-intl
-brew php71-xdebug
 brew phpmd
-brew phpunit
 
 tap homebrew/services
 
