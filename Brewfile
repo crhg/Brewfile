@@ -2,7 +2,6 @@
 # tap repositories and their packages
 
 tap homebrew/core
-brew abcl
 brew adns
 brew ant
 brew apr
@@ -139,6 +138,7 @@ brew pxz
 brew pyenv
 brew pyenv-virtualenv
 brew python
+brew python@2
 brew qcachegrind
 brew qt
 brew re2c
@@ -173,26 +173,16 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/apache
-
-tap homebrew/dupes
-
-tap homebrew/emacs
-brew slime
-
-tap homebrew/games
-
-tap homebrew/php
-brew phpmd
-
 tap homebrew/services
 
 tap caskroom/cask
 cask docker
+cask java
 cask racket
 cask xquartz
 
-tap crhg/misc
+tap caskroom/versions
+cask java8
 
 tap hhvm/hhvm
 brew hhvm
@@ -200,13 +190,16 @@ brew hhvm
 tap rcmdnk/file
 brew brew-file
 
-tap takuyao/misc
-
 tap tholu/tap
 brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
 
-# Other Homebrew packages
-brew clozure-cl
+# App Store applications
+appstore 443987910 1Password (6.8.8)
+appstore 411643860 DaisyDisk (4.5)
+appstore 406056744 Evernote (7.1)
+appstore 414030210 LimeChat (2.43)
+appstore 557168941 Tweetbot (2.5.4)
+appstore 497799835 Xcode (9.3)
