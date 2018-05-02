@@ -174,17 +174,6 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/apache
-
-tap homebrew/dupes
-
-tap homebrew/emacs
-brew slime
-
-tap homebrew/games
-
-tap homebrew/services
-
 tap caskroom/cask
 cask docker
 cask java
@@ -193,8 +182,6 @@ cask xquartz
 
 tap caskroom/versions
 cask java8
-
-tap crhg/misc
 
 tap hhvm/hhvm
 brew hhvm
