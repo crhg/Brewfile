@@ -174,6 +174,15 @@ brew xz
 brew zlib
 brew zsh
 
+tap homebrew/apache
+
+tap homebrew/dupes
+
+tap homebrew/emacs
+brew slime
+
+tap homebrew/games
+
 tap homebrew/services
 
 tap caskroom/cask
@@ -185,14 +194,21 @@ cask xquartz
 tap caskroom/versions
 cask java8
 
+tap crhg/misc
+
 tap hhvm/hhvm
 brew hhvm
 
 tap rcmdnk/file
 brew brew-file
 
+tap takuyao/misc
+
 tap tholu/tap
 brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
+
+# Other Homebrew packages
+brew clozure-cl
