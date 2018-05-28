@@ -137,7 +137,6 @@ brew plenv
 brew postgresql
 brew pth
 brew pxz
-brew pyenv
 brew python
 brew python@2
 brew qcachegrind
