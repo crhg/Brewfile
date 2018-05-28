@@ -20,6 +20,7 @@ brew cabal-install
 brew carthage
 brew chezscheme
 brew clisp
+brew clozure-cl
 brew composer
 brew coreutils
 brew cowsay
@@ -137,7 +138,6 @@ brew postgresql
 brew pth
 brew pxz
 brew pyenv
-brew pyenv-virtualenv
 brew python
 brew python@2
 brew qcachegrind
@@ -176,6 +176,15 @@ brew zsh
 
 tap homebrew/apache
 
+tap homebrew/cask
+cask docker
+cask java
+cask racket
+cask xquartz
+
+tap homebrew/cask-versions
+cask java8
+
 tap homebrew/dupes
 
 tap homebrew/emacs
@@ -184,15 +193,6 @@ brew slime
 tap homebrew/games
 
 tap homebrew/services
-
-tap caskroom/cask
-cask docker
-cask java
-cask racket
-cask xquartz
-
-tap caskroom/versions
-cask java8
 
 tap crhg/misc
 
@@ -209,6 +209,3 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
-
-# Other Homebrew packages
-brew clozure-cl
