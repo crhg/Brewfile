@@ -63,6 +63,7 @@ brew httpd
 brew icu4c
 brew imagemagick@6
 brew inetutils
+brew iproute2mac
 brew isl
 brew jansson
 brew jemalloc
@@ -192,6 +193,8 @@ brew slime
 tap homebrew/games
 
 tap homebrew/services
+
+tap caskroom/cask
 
 tap crhg/misc
 
