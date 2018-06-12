@@ -176,12 +176,6 @@ brew zsh
 
 tap homebrew/apache
 
-tap homebrew/cask
-cask docker
-cask java
-cask racket
-cask xquartz
-
 tap homebrew/cask-versions
 cask java8
 
@@ -194,7 +188,9 @@ tap homebrew/games
 
 tap homebrew/services
 
-tap caskroom/cask
+tap homebrew/cask
+cask docker
+cask racket
 
 tap crhg/misc
 
@@ -211,3 +207,7 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
+
+# Other Cask applications
+cask java
+cask xquartz
