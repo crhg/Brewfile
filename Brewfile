@@ -111,7 +111,7 @@ brew msgpack
 brew mycli
 brew mysql
 brew nasm
-brew neovim --with-python3
+brew neovim
 brew nethack
 brew nethack4
 brew nettle
@@ -173,9 +173,6 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/emacs
-brew slime
-
 tap hhvm/hhvm
 brew hhvm
 
@@ -189,8 +186,8 @@ tap thoughtbot/formulae
 brew rcm
 
 # Other Cask applications
-cask java
 cask docker
+cask java
 cask java
 cask racket
 cask xquartz
