@@ -31,7 +31,6 @@ brew dirmngr
 brew docker
 brew emacs
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
 brew findutils
 brew fontconfig
 brew fortune
@@ -112,7 +111,7 @@ brew msgpack
 brew mycli
 brew mysql
 brew nasm
-brew neovim
+brew neovim --with-python3
 brew nethack
 brew nethack4
 brew nettle
@@ -174,33 +173,14 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/apache
-
-tap homebrew/cask-versions
-cask java8
-
-tap homebrew/dupes
-
 tap homebrew/emacs
 brew slime
-
-tap homebrew/games
-
-tap homebrew/services
-
-tap homebrew/cask
-cask docker
-cask racket
-
-tap crhg/misc
 
 tap hhvm/hhvm
 brew hhvm
 
 tap rcmdnk/file
 brew brew-file
-
-tap takuyao/misc
 
 tap tholu/tap
 brew subversion18 --with-unicode-path
@@ -210,4 +190,7 @@ brew rcm
 
 # Other Cask applications
 cask java
+cask docker
+cask java
+cask racket
 cask xquartz
