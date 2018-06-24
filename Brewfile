@@ -184,15 +184,9 @@ tap homebrew/dupes
 tap homebrew/emacs
 brew slime
 
-tap homebrew/games
-
-tap homebrew/services
-
 tap homebrew/cask
 cask docker
 cask racket
-
-tap crhg/misc
 
 tap hhvm/hhvm
 brew hhvm
