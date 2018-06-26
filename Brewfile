@@ -184,8 +184,6 @@ brew hhvm
 tap rcmdnk/file
 brew brew-file
 
-tap takuyao/misc
-
 tap tholu/tap
 brew subversion18 --with-unicode-path
 
