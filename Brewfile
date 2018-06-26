@@ -138,6 +138,8 @@ brew plenv
 brew postgresql
 brew pth
 brew pxz
+brew pyenv
+brew pyenv-virtualenv
 brew python
 brew python@2
 brew qcachegrind
@@ -173,6 +175,11 @@ brew xvid
 brew xz
 brew zlib
 brew zsh
+
+tap homebrew/cask-versions
+cask java8
+
+tap homebrew/services
 
 tap homebrew/cask
 cask docker
