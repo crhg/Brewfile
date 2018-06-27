@@ -176,8 +176,17 @@ brew xz
 brew zlib
 brew zsh
 
+tap homebrew/apache
+
 tap homebrew/cask-versions
 cask java8
+
+tap homebrew/dupes
+
+tap homebrew/emacs
+brew slime
+
+tap homebrew/games
 
 tap homebrew/services
 
@@ -185,11 +194,15 @@ tap homebrew/cask
 cask docker
 cask racket
 
+tap crhg/misc
+
 tap hhvm/hhvm
 brew hhvm
 
 tap rcmdnk/file
 brew brew-file
+
+tap takuyao/misc
 
 tap tholu/tap
 brew subversion18 --with-unicode-path
