@@ -166,7 +166,7 @@ brew tmux
 brew tre
 brew unibilium
 brew unixodbc
-brew vim --with-override-system-vi --with-lua
+brew vim --with-override-system-vi --with-lua --with-luajit
 brew watch
 brew webp
 brew wget
