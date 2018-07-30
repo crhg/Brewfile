@@ -2,9 +2,7 @@
 # tap repositories and their packages
 
 tap homebrew/core
-brew abcl
 brew adns
-brew ant
 brew apr
 brew apr-util
 brew argon2
@@ -68,6 +66,7 @@ brew isl
 brew jansson
 brew jemalloc
 brew jpeg
+brew jq
 brew lame
 brew libassuan
 brew libev
@@ -120,6 +119,8 @@ brew nghttp2
 brew nkf
 brew node
 brew npth
+brew ocaml --with-x11
+brew ocaml-findlib
 brew oniguruma
 brew opencore-amr
 brew openjpeg
@@ -176,21 +177,33 @@ brew xz
 brew zlib
 brew zsh
 
+tap homebrew/apache
+
 tap homebrew/cask-versions
 cask java8
+
+tap homebrew/dupes
 
 tap homebrew/emacs
 brew slime
 
+tap homebrew/games
+
+tap homebrew/services
+
 tap homebrew/cask
 cask docker
 cask racket
+
+tap crhg/misc
 
 tap hhvm/hhvm
 brew hhvm
 
 tap rcmdnk/file
 brew brew-file
+
+tap takuyao/misc
 
 tap tholu/tap
 brew subversion18 --with-unicode-path
