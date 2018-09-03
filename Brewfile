@@ -25,7 +25,6 @@ brew cowsay
 brew cpanminus
 brew cscope
 brew ctags
-brew dirmngr
 brew docker
 brew emacs
 brew fdk-aac
@@ -52,8 +51,8 @@ brew gnupg
 brew gnuplot
 brew gnutls
 brew go
-brew gpg-agent
 brew graphviz
+brew grep
 brew groovy
 brew guile
 brew haskell-stack
@@ -210,6 +209,10 @@ brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
 brew rcm
+
+# Other Homebrew packages
+brew dirmngr
+brew gpg-agent
 
 # Other Cask applications
 cask java
