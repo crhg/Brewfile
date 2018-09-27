@@ -73,6 +73,7 @@ brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
+brew libiconv
 brew libidn
 brew libidn2
 brew libksba
@@ -123,6 +124,7 @@ brew ocaml-findlib
 brew oniguruma
 brew opencore-amr
 brew openjpeg
+brew openldap
 brew openssl
 brew openssl@1.1
 brew p11-kit
