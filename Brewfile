@@ -8,6 +8,7 @@ brew apr-util
 brew argon2
 brew aspell
 brew autoconf
+brew automake
 brew bdw-gc
 brew binutils
 brew bison
@@ -15,6 +16,7 @@ brew boost
 brew brotli
 brew c-ares
 brew cabal-install
+brew cairo
 brew carthage
 brew chezscheme
 brew clisp
@@ -28,12 +30,13 @@ brew ctags
 brew docker
 brew emacs
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
+brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg
 brew findutils
 brew fontconfig
 brew fortune
 brew freetds
 brew freetype
+brew fribidi
 brew gauche
 brew gawk
 brew gcc
@@ -51,10 +54,12 @@ brew gnupg
 brew gnuplot
 brew gnutls
 brew go
+brew graphite2
 brew graphviz
 brew grep
 brew groovy
 brew guile
+brew harfbuzz
 brew haskell-stack
 brew httpd
 brew icu4c
@@ -111,6 +116,7 @@ brew msgpack
 brew mycli
 brew mysql
 brew nasm
+brew ncurses
 brew neovim
 brew nethack
 brew nethack4
@@ -127,7 +133,9 @@ brew openjpeg
 brew openldap
 brew openssl
 brew openssl@1.1
+brew opus
 brew p11-kit
+brew pango
 brew pcre
 brew perl
 brew perl-build
@@ -135,11 +143,11 @@ brew php
 brew php-code-sniffer
 brew phpunit
 brew pinentry
+brew pixman
 brew pkg-config
 brew plenv
 brew postgresql
 brew pth
-brew pxz
 brew pyenv
 brew pyenv-virtualenv
 brew python
@@ -155,6 +163,8 @@ brew roswell
 brew ruby
 brew sbcl
 brew scons
+brew sdl2
+brew snappy
 brew socat
 brew spdylay
 brew sqlite
@@ -173,6 +183,7 @@ brew watch
 brew webp
 brew wget
 brew x264
+brew x265
 brew xvid
 brew xz
 brew zlib
@@ -215,6 +226,7 @@ brew rcm
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
+brew pxz
 
 # Other Cask applications
 cask java
