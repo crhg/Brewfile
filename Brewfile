@@ -73,6 +73,7 @@ brew jpeg
 brew jq
 brew lame
 brew libassuan
+brew libedit
 brew libev
 brew libevent
 brew libffi
@@ -119,7 +120,6 @@ brew nasm
 brew ncurses
 brew neovim
 brew nethack
-brew nethack4
 brew nettle
 brew nghttp2
 brew nkf
@@ -169,16 +169,18 @@ brew socat
 brew spdylay
 brew sqlite
 brew swagger-codegen
+brew swi-prolog
 brew tbb
 brew texi2html
 brew texinfo
 brew the_silver_searcher
 brew theora
+brew tidy-html5
 brew tmux
 brew tre
 brew unibilium
 brew unixodbc
-brew vim --with-override-system-vi --with-lua --with-luajit
+brew vim
 brew watch
 brew webp
 brew wget
@@ -226,6 +228,7 @@ brew rcm
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
+brew nethack4
 brew pxz
 
 # Other Cask applications
