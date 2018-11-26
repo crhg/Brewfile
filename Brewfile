@@ -14,6 +14,7 @@ brew binutils
 brew bison
 brew boost
 brew brotli
+brew bzip2
 brew c-ares
 brew cabal-install
 brew cairo
