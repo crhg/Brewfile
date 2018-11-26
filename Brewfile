@@ -2,7 +2,9 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew abcl
 brew adns
+brew ant
 brew apr
 brew apr-util
 brew argon2
@@ -28,6 +30,8 @@ brew cowsay
 brew cpanminus
 brew cscope
 brew ctags
+brew curl
+brew curl-openssl
 brew docker
 brew emacs
 brew fdk-aac
@@ -142,6 +146,7 @@ brew perl
 brew perl-build
 brew php
 brew php-code-sniffer
+brew php@7.1
 brew phpunit
 brew pinentry
 brew pixman
@@ -203,6 +208,8 @@ tap homebrew/emacs
 brew slime
 
 tap homebrew/games
+
+tap homebrew/php
 
 tap homebrew/services
 
