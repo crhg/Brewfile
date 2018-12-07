@@ -209,6 +209,8 @@ brew slime
 
 tap homebrew/games
 
+tap homebrew/php
+
 tap homebrew/services
 
 tap homebrew/cask
