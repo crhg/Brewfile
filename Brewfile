@@ -77,7 +77,9 @@ brew jemalloc
 brew jpeg
 brew jq
 brew lame
+brew libarchive
 brew libassuan
+brew libcerf
 brew libedit
 brew libev
 brew libevent
@@ -142,6 +144,7 @@ brew opus
 brew p11-kit
 brew pango
 brew pcre
+brew pcre2
 brew perl
 brew perl-build
 brew php
@@ -183,6 +186,7 @@ brew the_silver_searcher
 brew theora
 brew tidy-html5
 brew tmux
+brew trash
 brew tre
 brew unibilium
 brew unixodbc
