@@ -35,12 +35,13 @@ brew curl-openssl
 brew docker
 brew emacs
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg
+brew ffmpeg
 brew findutils
 brew fontconfig
 brew fortune
 brew freetds
 brew freetype
+brew frei0r
 brew fribidi
 brew gauche
 brew gawk
@@ -52,6 +53,7 @@ brew gettext
 brew gflags
 brew ghc
 brew glib
+brew glm
 brew glog
 brew gmp
 brew gnu-sed
@@ -78,6 +80,7 @@ brew jpeg
 brew jq
 brew lame
 brew libarchive
+brew libass
 brew libassuan
 brew libcerf
 brew libedit
@@ -91,12 +94,14 @@ brew libidn
 brew libidn2
 brew libksba
 brew libmemcached
+brew libmetalink
 brew libmpc
 brew libogg
 brew libpng
 brew libpq
 brew libsigsegv
 brew libsodium
+brew libssh2
 brew libtasn1
 brew libtermkey
 brew libtiff
@@ -169,6 +174,7 @@ brew reattach-to-user-namespace
 brew rlwrap
 brew rogue
 brew roswell
+brew rtmpdump
 brew ruby
 brew sbcl
 brew scons
@@ -176,6 +182,7 @@ brew sdl2
 brew snappy
 brew socat
 brew spdylay
+brew speex
 brew sqlite
 brew swagger-codegen
 brew swi-prolog
@@ -222,7 +229,6 @@ cask racket
 tap crhg/misc
 
 tap hhvm/hhvm
-brew hhvm
 
 tap rcmdnk/file
 brew brew-file
