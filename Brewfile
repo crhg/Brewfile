@@ -5,6 +5,7 @@ tap homebrew/core
 brew abcl
 brew adns
 brew ant
+brew aom
 brew apr
 brew apr-util
 brew argon2
@@ -37,6 +38,7 @@ brew emacs
 brew fdk-aac
 brew ffmpeg
 brew findutils
+brew flac
 brew fontconfig
 brew fortune
 brew freetds
@@ -52,6 +54,7 @@ brew gdbm
 brew gettext
 brew gflags
 brew ghc
+brew giflib
 brew glib
 brew glm
 brew glog
@@ -79,9 +82,11 @@ brew jemalloc
 brew jpeg
 brew jq
 brew lame
+brew leptonica
 brew libarchive
 brew libass
 brew libassuan
+brew libbluray
 brew libcerf
 brew libedit
 brew libev
@@ -99,8 +104,11 @@ brew libmpc
 brew libogg
 brew libpng
 brew libpq
+brew libsamplerate
 brew libsigsegv
+brew libsndfile
 brew libsodium
+brew libsoxr
 brew libssh2
 brew libtasn1
 brew libtermkey
@@ -155,6 +163,7 @@ brew perl-build
 brew php
 brew php-code-sniffer
 brew php@7.1
+brew phpmd
 brew phpunit
 brew pinentry
 brew pixman
@@ -175,6 +184,7 @@ brew rlwrap
 brew rogue
 brew roswell
 brew rtmpdump
+brew rubberband
 brew ruby
 brew sbcl
 brew scons
@@ -187,6 +197,7 @@ brew sqlite
 brew swagger-codegen
 brew swi-prolog
 brew tbb
+brew tesseract
 brew texi2html
 brew texinfo
 brew the_silver_searcher
