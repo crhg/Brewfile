@@ -240,6 +240,7 @@ cask racket
 tap crhg/misc
 
 tap hhvm/hhvm
+brew hhvm
 
 tap rcmdnk/file
 brew brew-file
