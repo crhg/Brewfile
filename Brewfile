@@ -56,6 +56,7 @@ brew gflags
 brew ghc
 brew giflib
 brew glib
+brew glm
 brew glog
 brew gmp
 brew gnu-sed
@@ -227,8 +228,6 @@ tap homebrew/cask-versions
 
 tap homebrew/emacs
 brew slime
-
-tap homebrew/php
 
 tap homebrew/services
 
