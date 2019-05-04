@@ -5,6 +5,7 @@ tap homebrew/core
 brew abcl
 brew adns
 brew ant
+brew aom
 brew apr
 brew apr-util
 brew argon2
@@ -12,7 +13,6 @@ brew aspell
 brew autoconf
 brew automake
 brew bdw-gc
-brew binutils
 brew bison
 brew boost
 brew brotli
@@ -20,6 +20,7 @@ brew bzip2
 brew c-ares
 brew cabal-install
 brew cairo
+brew camlp5
 brew carthage
 brew chezscheme
 brew clisp
@@ -35,12 +36,14 @@ brew curl-openssl
 brew docker
 brew emacs
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg
+brew ffmpeg
 brew findutils
+brew flac
 brew fontconfig
 brew fortune
 brew freetds
 brew freetype
+brew frei0r
 brew fribidi
 brew gauche
 brew gawk
@@ -51,6 +54,7 @@ brew gdbm
 brew gettext
 brew gflags
 brew ghc
+brew giflib
 brew glib
 brew glog
 brew gmp
@@ -77,7 +81,13 @@ brew jemalloc
 brew jpeg
 brew jq
 brew lame
+brew ledit
+brew leptonica
+brew libarchive
+brew libass
 brew libassuan
+brew libbluray
+brew libcerf
 brew libedit
 brew libev
 brew libevent
@@ -89,12 +99,17 @@ brew libidn
 brew libidn2
 brew libksba
 brew libmemcached
+brew libmetalink
 brew libmpc
 brew libogg
 brew libpng
 brew libpq
+brew libsamplerate
 brew libsigsegv
+brew libsndfile
 brew libsodium
+brew libsoxr
+brew libssh2
 brew libtasn1
 brew libtermkey
 brew libtiff
@@ -133,6 +148,7 @@ brew npth
 brew ocaml --with-x11
 brew ocaml-findlib
 brew oniguruma
+brew opam
 brew opencore-amr
 brew openjpeg
 brew openldap
@@ -142,11 +158,13 @@ brew opus
 brew p11-kit
 brew pango
 brew pcre
+brew pcre2
 brew perl
 brew perl-build
 brew php
 brew php-code-sniffer
 brew php@7.1
+brew phpmd
 brew phpunit
 brew pinentry
 brew pixman
@@ -166,6 +184,8 @@ brew reattach-to-user-namespace
 brew rlwrap
 brew rogue
 brew roswell
+brew rtmpdump
+brew rubberband
 brew ruby
 brew sbcl
 brew scons
@@ -173,16 +193,20 @@ brew sdl2
 brew snappy
 brew socat
 brew spdylay
+brew speex
+brew sphinx-doc
 brew sqlite
 brew swagger-codegen
 brew swi-prolog
 brew tbb
+brew tesseract
 brew texi2html
 brew texinfo
 brew the_silver_searcher
 brew theora
 brew tidy-html5
 brew tmux
+brew trash
 brew tre
 brew unibilium
 brew unixodbc
@@ -200,14 +224,9 @@ brew zsh
 tap homebrew/apache
 
 tap homebrew/cask-versions
-cask java8
-
-tap homebrew/dupes
 
 tap homebrew/emacs
 brew slime
-
-tap homebrew/games
 
 tap homebrew/php
 
@@ -220,7 +239,6 @@ cask racket
 tap crhg/misc
 
 tap hhvm/hhvm
-brew hhvm
 
 tap rcmdnk/file
 brew brew-file
@@ -241,4 +259,5 @@ brew pxz
 
 # Other Cask applications
 cask java
+cask java8
 cask xquartz
