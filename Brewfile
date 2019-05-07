@@ -13,6 +13,8 @@ brew aspell
 brew autoconf
 brew automake
 brew bdw-gc
+brew berkeley-db
+brew binutils
 brew bison
 brew boost
 brew brotli
@@ -68,6 +70,7 @@ brew graphite2
 brew graphviz
 brew grep
 brew groovy
+brew gts
 brew guile
 brew harfbuzz
 brew haskell-stack
@@ -78,6 +81,7 @@ brew inetutils
 brew iproute2mac
 brew isl
 brew jansson
+brew jasper
 brew jemalloc
 brew jpeg
 brew jq
@@ -141,12 +145,13 @@ brew nasm
 brew ncurses
 brew neovim
 brew nethack
+brew netpbm
 brew nettle
 brew nghttp2
 brew nkf
 brew node
 brew npth
-brew ocaml --with-x11
+brew ocaml
 brew ocaml-findlib
 brew oniguruma
 brew opam
@@ -156,6 +161,7 @@ brew openldap
 brew openssl
 brew openssl@1.1
 brew opus
+brew ossp-uuid
 brew p11-kit
 brew pango
 brew pcre
@@ -165,7 +171,6 @@ brew perl-build
 brew php
 brew php-code-sniffer
 brew php@7.1
-brew phpmd
 brew phpunit
 brew pinentry
 brew pixman
@@ -209,6 +214,7 @@ brew tidy-html5
 brew tmux
 brew trash
 brew tre
+brew unbound
 brew unibilium
 brew unixodbc
 brew vim
@@ -222,12 +228,15 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/emacs
-brew slime
+tap homebrew/cask-versions
+
+tap homebrew/services
 
 tap homebrew/cask
 cask docker
 cask racket
+
+tap hhvm/hhvm
 
 tap rcmdnk/file
 brew brew-file
