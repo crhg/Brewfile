@@ -62,6 +62,7 @@ brew glm
 brew glog
 brew gmp
 brew gnu-sed
+brew gnu-tar
 brew gnupg
 brew gnuplot
 brew gnutls
@@ -134,6 +135,7 @@ brew lua
 brew luajit
 brew lz4
 brew mas
+brew maven
 brew mcrypt
 brew memcached
 brew mhash
@@ -168,6 +170,7 @@ brew pcre
 brew pcre2
 brew perl
 brew perl-build
+brew perltidy
 brew php
 brew php-code-sniffer
 brew php@7.1
@@ -178,6 +181,7 @@ brew pkg-config
 brew plenv
 brew postgresql
 brew pth
+brew pv
 brew pyenv
 brew pyenv-virtualenv
 brew python
@@ -211,6 +215,7 @@ brew texinfo
 brew the_silver_searcher
 brew theora
 brew tidy-html5
+brew tig
 brew tmux
 brew trash
 brew tre
@@ -234,7 +239,8 @@ tap homebrew/services
 
 tap homebrew/cask
 cask docker
-cask racket
+cask mattermost
+cask xquartz
 
 tap hhvm/hhvm
 
@@ -250,6 +256,7 @@ brew rcm
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
+brew hhvm
 brew nethack4
 brew pxz
 
@@ -257,3 +264,4 @@ brew pxz
 cask java
 cask java8
 cask xquartz
+cask racket
