@@ -27,6 +27,7 @@ brew carthage
 brew chezscheme
 brew clisp
 brew clozure-cl
+brew cmake
 brew composer
 brew coreutils
 brew cowsay
@@ -42,6 +43,7 @@ brew ffmpeg
 brew findutils
 brew flac
 brew fontconfig
+brew fontforge
 brew fortune
 brew freetds
 brew freetype
@@ -115,11 +117,13 @@ brew libsigsegv
 brew libsndfile
 brew libsodium
 brew libsoxr
+brew libspiro
 brew libssh2
 brew libtasn1
 brew libtermkey
 brew libtiff
 brew libtool
+brew libuninameslist
 brew libunistring
 brew libusb
 brew libusb-compat
@@ -174,6 +178,7 @@ brew perltidy
 brew php
 brew php-code-sniffer
 brew php@7.1
+brew phpmd
 brew phpunit
 brew pinentry
 brew pixman
@@ -233,7 +238,12 @@ brew xz
 brew zlib
 brew zsh
 
+tap homebrew/apache
+
 tap homebrew/cask-versions
+
+tap homebrew/emacs
+brew slime
 
 tap homebrew/services
 
@@ -242,10 +252,21 @@ cask docker
 cask mattermost
 cask xquartz
 
+tap crhg/misc
+
+tap delphinus/sfmono-square
+brew sfmono-square
+
 tap hhvm/hhvm
+
+tap linux-noah/noah
+brew noah
+brew noahstrap
 
 tap rcmdnk/file
 brew brew-file
+
+tap takuyao/misc
 
 tap tholu/tap
 brew subversion18 --with-unicode-path
@@ -256,12 +277,9 @@ brew rcm
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
-brew hhvm
 brew nethack4
 brew pxz
 
 # Other Cask applications
 cask java
-cask java8
-cask xquartz
 cask racket
