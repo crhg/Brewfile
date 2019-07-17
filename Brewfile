@@ -36,6 +36,7 @@ brew cscope
 brew ctags
 brew curl
 brew curl-openssl
+brew darcs
 brew docker
 brew emacs
 brew fdk-aac
@@ -138,10 +139,12 @@ brew little-cms2
 brew lua
 brew luajit
 brew lz4
+brew lzo
 brew mas
 brew maven
 brew mcrypt
 brew memcached
+brew mercurial
 brew mhash
 brew mpfr
 brew msgpack
@@ -243,8 +246,8 @@ brew slime
 
 tap homebrew/cask
 cask docker
-cask mattermost
-cask xquartz
+cask julia
+cask racket
 
 tap delphinus/sfmono-square
 brew sfmono-square
@@ -270,4 +273,5 @@ brew pxz
 
 # Other Cask applications
 cask java
-cask racket
+cask mattermost
+cask xquartz
