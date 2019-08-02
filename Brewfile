@@ -241,8 +241,9 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/emacs
-brew slime
+tap homebrew/cask-versions
+
+tap homebrew/services
 
 tap homebrew/cask
 cask docker
@@ -251,6 +252,8 @@ cask racket
 
 tap delphinus/sfmono-square
 brew sfmono-square
+
+tap hhvm/hhvm
 
 tap linux-noah/noah
 brew noah
@@ -273,5 +276,6 @@ brew pxz
 
 # Other Cask applications
 cask java
+cask java8
 cask mattermost
 cask xquartz
