@@ -129,6 +129,7 @@ brew libunistring
 brew libusb
 brew libusb-compat
 brew libuv
+brew libvidstab
 brew libvorbis
 brew libvpx
 brew libvterm
@@ -243,6 +244,9 @@ brew zsh
 
 tap homebrew/cask-versions
 
+tap homebrew/emacs
+brew slime
+
 tap homebrew/services
 
 tap homebrew/cask
@@ -276,6 +280,5 @@ brew pxz
 
 # Other Cask applications
 cask java
-cask java8
 cask mattermost
 cask xquartz
