@@ -232,7 +232,8 @@ brew slime
 tap homebrew/services
 
 tap homebrew/cask
-cask docker
+cask anaconda
+cask java
 cask racket
 
 tap crhg/misc
@@ -241,6 +242,9 @@ tap hhvm/hhvm
 
 tap rcmdnk/file
 brew brew-file
+
+tap sanemat/font
+brew ricty
 
 tap takuyao/misc
 
@@ -257,6 +261,6 @@ brew nethack4
 brew pxz
 
 # Other Cask applications
-cask java
+cask docker
 cask java8
 cask xquartz
