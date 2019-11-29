@@ -13,6 +13,8 @@ brew aspell
 brew autoconf
 brew automake
 brew bdw-gc
+brew berkeley-db
+brew binutils
 brew bison
 brew boost
 brew brotli
@@ -25,6 +27,7 @@ brew carthage
 brew chezscheme
 brew clisp
 brew clozure-cl
+brew cmake
 brew composer
 brew coreutils
 brew cowsay
@@ -33,6 +36,7 @@ brew cscope
 brew ctags
 brew curl
 brew curl-openssl
+brew darcs
 brew docker
 brew emacs
 brew fdk-aac
@@ -40,6 +44,7 @@ brew ffmpeg
 brew findutils
 brew flac
 brew fontconfig
+brew fontforge
 brew fortune
 brew freetds
 brew freetype
@@ -60,6 +65,7 @@ brew glm
 brew glog
 brew gmp
 brew gnu-sed
+brew gnu-tar
 brew gnupg
 brew gnuplot
 brew gnutls
@@ -68,6 +74,7 @@ brew graphite2
 brew graphviz
 brew grep
 brew groovy
+brew gts
 brew guile
 brew harfbuzz
 brew haskell-stack
@@ -78,6 +85,7 @@ brew inetutils
 brew iproute2mac
 brew isl
 brew jansson
+brew jasper
 brew jemalloc
 brew jpeg
 brew jq
@@ -110,15 +118,18 @@ brew libsigsegv
 brew libsndfile
 brew libsodium
 brew libsoxr
+brew libspiro
 brew libssh2
 brew libtasn1
 brew libtermkey
 brew libtiff
 brew libtool
+brew libuninameslist
 brew libunistring
 brew libusb
 brew libusb-compat
 brew libuv
+brew libvidstab
 brew libvorbis
 brew libvpx
 brew libvterm
@@ -129,9 +140,12 @@ brew little-cms2
 brew lua
 brew luajit
 brew lz4
+brew lzo
 brew mas
+brew maven
 brew mcrypt
 brew memcached
+brew mercurial
 brew mhash
 brew mpfr
 brew msgpack
@@ -141,12 +155,13 @@ brew nasm
 brew ncurses
 brew neovim
 brew nethack
+brew netpbm
 brew nettle
 brew nghttp2
 brew nkf
 brew node
 brew npth
-brew ocaml --with-x11
+brew ocaml
 brew ocaml-findlib
 brew oniguruma
 brew opam
@@ -156,12 +171,14 @@ brew openldap
 brew openssl
 brew openssl@1.1
 brew opus
+brew ossp-uuid
 brew p11-kit
 brew pango
 brew pcre
 brew pcre2
 brew perl
 brew perl-build
+brew perltidy
 brew php
 brew php-code-sniffer
 brew php@7.1
@@ -173,6 +190,7 @@ brew pkg-config
 brew plenv
 brew postgresql
 brew pth
+brew pv
 brew pyenv
 brew pyenv-virtualenv
 brew python
@@ -206,9 +224,11 @@ brew texinfo
 brew the_silver_searcher
 brew theora
 brew tidy-html5
+brew tig
 brew tmux
 brew trash
 brew tre
+brew unbound
 brew unibilium
 brew unixodbc
 brew vim
@@ -222,8 +242,6 @@ brew xz
 brew zlib
 brew zsh
 
-tap homebrew/apache
-
 tap homebrew/cask-versions
 
 tap homebrew/emacs
@@ -232,13 +250,21 @@ brew slime
 tap homebrew/services
 
 tap homebrew/cask
+
 cask anaconda
 cask java
+cask docker
+cask julia
 cask racket
 
-tap crhg/misc
+tap delphinus/sfmono-square
+brew sfmono-square
 
 tap hhvm/hhvm
+
+tap linux-noah/noah
+brew noah
+brew noahstrap
 
 tap rcmdnk/file
 brew brew-file
@@ -261,6 +287,4 @@ brew nethack4
 brew pxz
 
 # Other Cask applications
-cask docker
-cask java8
 cask xquartz
