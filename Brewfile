@@ -14,7 +14,6 @@ brew autoconf
 brew automake
 brew bdw-gc
 brew berkeley-db
-brew binutils
 brew bison
 brew boost
 brew brotli
@@ -27,7 +26,6 @@ brew carthage
 brew chezscheme
 brew clisp
 brew clozure-cl
-brew cmake
 brew composer
 brew coreutils
 brew cowsay
@@ -36,7 +34,7 @@ brew cscope
 brew ctags
 brew curl
 brew curl-openssl
-brew darcs
+brew dav1d
 brew docker
 brew emacs
 brew fdk-aac
@@ -61,11 +59,10 @@ brew gflags
 brew ghc
 brew giflib
 brew glib
-brew glm
 brew glog
 brew gmp
+brew gnu-prolog
 brew gnu-sed
-brew gnu-tar
 brew gnupg
 brew gnuplot
 brew gnutls
@@ -89,12 +86,14 @@ brew jasper
 brew jemalloc
 brew jpeg
 brew jq
+brew krb5
 brew lame
 brew ledit
 brew leptonica
 brew libarchive
 brew libass
 brew libassuan
+brew libb2
 brew libbluray
 brew libcerf
 brew libedit
@@ -142,10 +141,8 @@ brew luajit
 brew lz4
 brew lzo
 brew mas
-brew maven
 brew mcrypt
 brew memcached
-brew mercurial
 brew mhash
 brew mpfr
 brew msgpack
@@ -166,9 +163,9 @@ brew ocaml-findlib
 brew oniguruma
 brew opam
 brew opencore-amr
+brew openjdk
 brew openjpeg
 brew openldap
-brew openssl
 brew openssl@1.1
 brew opus
 brew ossp-uuid
@@ -178,10 +175,8 @@ brew pcre
 brew pcre2
 brew perl
 brew perl-build
-brew perltidy
 brew php
 brew php-code-sniffer
-brew php@7.1
 brew phpmd
 brew phpunit
 brew pinentry
@@ -189,14 +184,16 @@ brew pixman
 brew pkg-config
 brew plenv
 brew postgresql
+brew protobuf
+brew protobuf@3.7
 brew pth
-brew pv
 brew pyenv
 brew pyenv-virtualenv
-brew python
-brew python@2
+brew python@3.8
 brew qcachegrind
 brew qt
+brew rav1e
+brew rcm
 brew re2c
 brew readline
 brew reattach-to-user-namespace
@@ -215,6 +212,7 @@ brew spdylay
 brew speex
 brew sphinx-doc
 brew sqlite
+brew srt
 brew swagger-codegen
 brew swi-prolog
 brew tbb
@@ -224,13 +222,14 @@ brew texinfo
 brew the_silver_searcher
 brew theora
 brew tidy-html5
-brew tig
 brew tmux
 brew trash
 brew tre
+brew tree
 brew unbound
 brew unibilium
 brew unixodbc
+brew utf8proc
 brew vim
 brew watch
 brew webp
@@ -241,30 +240,28 @@ brew xvid
 brew xz
 brew zlib
 brew zsh
+brew zstd
 
 tap homebrew/cask-versions
 
 tap homebrew/emacs
 brew slime
 
+tap homebrew/php
+
 tap homebrew/services
 
 tap homebrew/cask
-
 cask anaconda
-cask java
 cask docker
-cask julia
+cask java
 cask racket
+cask xquartz
 
-tap delphinus/sfmono-square
-brew sfmono-square
+tap crhg/misc
 
 tap hhvm/hhvm
-
-tap linux-noah/noah
-brew noah
-brew noahstrap
+brew hhvm-4.66
 
 tap rcmdnk/file
 brew brew-file
@@ -278,13 +275,14 @@ tap tholu/tap
 brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
-brew rcm
 
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
 brew nethack4
+brew php@7.1
 brew pxz
+brew python@2
 
 # Other Cask applications
-cask xquartz
+cask java8
