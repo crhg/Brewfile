@@ -37,6 +37,7 @@ brew ctags
 brew curl
 brew curl-openssl
 brew darcs
+brew dav1d
 brew docker
 brew emacs
 brew fdk-aac
@@ -89,12 +90,14 @@ brew jasper
 brew jemalloc
 brew jpeg
 brew jq
+brew krb5
 brew lame
 brew ledit
 brew leptonica
 brew libarchive
 brew libass
 brew libassuan
+brew libb2
 brew libbluray
 brew libcerf
 brew libedit
@@ -166,6 +169,7 @@ brew ocaml-findlib
 brew oniguruma
 brew opam
 brew opencore-amr
+brew openjdk
 brew openjpeg
 brew openldap
 brew openssl@1.1
@@ -187,12 +191,16 @@ brew pixman
 brew pkg-config
 brew plenv
 brew postgresql
+brew protobuf
+brew protobuf@3.7
 brew pth
 brew pv
 brew pyenv
 brew pyenv-virtualenv
+brew python@3.8
 brew qcachegrind
 brew qt
+brew rav1e
 brew rcm
 brew re2c
 brew readline
@@ -212,6 +220,7 @@ brew spdylay
 brew speex
 brew sphinx-doc
 brew sqlite
+brew srt
 brew swagger-codegen
 brew swi-prolog
 brew tbb
@@ -228,6 +237,7 @@ brew tre
 brew unbound
 brew unibilium
 brew unixodbc
+brew utf8proc
 brew vim
 brew watch
 brew webp
@@ -239,6 +249,7 @@ brew xz
 brew yarn
 brew zlib
 brew zsh
+brew zstd
 
 tap homebrew/cask-versions
 
@@ -249,14 +260,18 @@ tap homebrew/services
 
 tap homebrew/cask
 cask docker
+cask hyper
 cask java
+cask julia
 cask mattermost
+cask racket
 cask xquartz
 
 tap delphinus/sfmono-square
 brew sfmono-square
 
 tap hhvm/hhvm
+brew hhvm-4.66
 
 tap linux-noah/noah
 brew noah
@@ -266,7 +281,6 @@ tap rcmdnk/file
 brew brew-file
 
 tap tholu/tap
-brew openssl
 brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
@@ -277,10 +291,6 @@ brew gpg-agent
 brew nethack4
 brew php@7.1
 brew pxz
-brew python
 brew python@2
 
-# Other Cask applications
-cask hyper
-cask julia
-cask racket
+# Other commands
