@@ -168,7 +168,6 @@ brew opam
 brew opencore-amr
 brew openjpeg
 brew openldap
-brew openssl
 brew openssl@1.1
 brew opus
 brew ossp-uuid
@@ -181,7 +180,6 @@ brew perl-build
 brew perltidy
 brew php
 brew php-code-sniffer
-brew php@7.1
 brew phpmd
 brew phpunit
 brew pinentry
@@ -193,10 +191,9 @@ brew pth
 brew pv
 brew pyenv
 brew pyenv-virtualenv
-brew python
-brew python@2
 brew qcachegrind
 brew qt
+brew rcm
 brew re2c
 brew readline
 brew reattach-to-user-namespace
@@ -239,6 +236,7 @@ brew x264
 brew x265
 brew xvid
 brew xz
+brew yarn
 brew zlib
 brew zsh
 
@@ -251,8 +249,9 @@ tap homebrew/services
 
 tap homebrew/cask
 cask docker
-cask julia
-cask racket
+cask java
+cask mattermost
+cask xquartz
 
 tap delphinus/sfmono-square
 brew sfmono-square
@@ -267,18 +266,21 @@ tap rcmdnk/file
 brew brew-file
 
 tap tholu/tap
+brew openssl
 brew subversion18 --with-unicode-path
 
 tap thoughtbot/formulae
-brew rcm
 
 # Other Homebrew packages
 brew dirmngr
 brew gpg-agent
 brew nethack4
+brew php@7.1
 brew pxz
+brew python
+brew python@2
 
 # Other Cask applications
-cask java
-cask mattermost
-cask xquartz
+cask hyper
+cask julia
+cask racket
