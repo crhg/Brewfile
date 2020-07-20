@@ -292,5 +292,3 @@ brew nethack4
 brew php@7.1
 brew pxz
 brew python@2
-
-# Other commands
