@@ -221,6 +221,7 @@ brew speex
 brew sphinx-doc
 brew sqlite
 brew srt
+brew subversion
 brew swagger-codegen
 brew swi-prolog
 brew tbb
