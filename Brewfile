@@ -67,6 +67,7 @@ brew gnupg
 brew gnuplot
 brew gnutls
 brew go
+brew gobject-introspection
 brew graphite2
 brew graphviz
 brew grep
@@ -190,6 +191,7 @@ brew pth
 brew pyenv
 brew pyenv-virtualenv
 brew python@3.8
+brew python@3.9
 brew qcachegrind
 brew qt
 brew rav1e
@@ -247,14 +249,11 @@ tap homebrew/cask-versions
 tap homebrew/emacs
 brew slime
 
-tap homebrew/php
-
 tap homebrew/services
 
 tap homebrew/cask
 cask anaconda
 cask docker
-cask java
 cask racket
 cask xquartz
 
