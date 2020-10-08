@@ -65,6 +65,7 @@ brew glib
 brew glm
 brew glog
 brew gmp
+brew gnu-prolog
 brew gnu-sed
 brew gnu-tar
 brew gnupg
@@ -237,6 +238,7 @@ brew tig
 brew tmux
 brew trash
 brew tre
+brew tree
 brew unbound
 brew unibilium
 brew unixodbc
@@ -262,10 +264,13 @@ brew slime
 tap homebrew/services
 
 tap homebrew/cask
+cask anaconda
 cask docker
 cask julia
 cask racket
 cask xquartz
+
+tap crhg/misc
 
 tap delphinus/sfmono-square
 brew sfmono-square
@@ -280,6 +285,11 @@ brew noahstrap
 tap rcmdnk/file
 brew brew-file
 
+tap sanemat/font
+brew ricty
+
+tap takuyao/misc
+
 tap tholu/tap
 brew subversion18 --with-unicode-path
 
@@ -292,3 +302,6 @@ brew nethack4
 brew php@7.1
 brew pxz
 brew python@2
+
+# Other Cask applications
+cask java8
